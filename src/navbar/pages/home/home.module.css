@@ -1,0 +1,35 @@
+.home-container {
+   text-align: center;
+   padding: 20px;
+ }
+ 
+ .product-list {
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+ }
+ 
+ .product-item {
+   margin: 10px;
+   padding: 10px;
+   border: 1px solid #ddd;
+   text-align: center;
+   color: rgb(45, 39, 3);
+   transition: transform 0.3s, box-shadow 0.3s;
+ }
+ 
+ img {
+max-width:  200px;
+max-height: 200px;
+ }
+ .image-container {
+  transform: scale(1);
+  transition: transform 0.3s;
+}
+
+.hovered {
+   transform: scale(1.1); 
+   /* uvelichivaem foto  */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* odteniaem fon */
+}
+ 
